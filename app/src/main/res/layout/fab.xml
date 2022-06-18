@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myfab_main"
+    android:layout_width="65dp"
+    android:layout_height="65dp" >
+
+    <ImageButton
+        android:id="@+id/ibSend"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fab_selector"
+        android:cropToPadding="true"
+        android:padding="5dp"
+        android:src="@drawable/ic_send_white_24dp" />
+
+</FrameLayout>

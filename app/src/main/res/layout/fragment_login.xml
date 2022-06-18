@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/layout_main"
+    android:background="@color/home_background"
+    tools:context=".activities.LoginFragment" >
+
+
+    <ScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/linearMain"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:id="@+id/card_social_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="2dp"
+                android:layout_marginTop="10dp"
+                card_view:cardBackgroundColor="@color/myWindowBackground"
+                card_view:cardElevation="@dimen/cardview_default_elevation"
+                android:visibility="gone"
+                android:foreground="?android:attr/selectableItemBackground" >
+
+                <com.facebook.login.widget.LoginButton
+                    xmlns:fb="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/login_button"
+                    android:layout_margin="8dp"
+                    fb:com_facebook_login_text="Login with Facebook"
+                    fb:com_facebook_logout_text="Logout"
+                    style="@style/FacebookLoginButton" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="OR ENTER"
+                android:visibility="gone"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:id="@+id/card_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="2dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="10dp"
+                card_view:cardBackgroundColor="@color/myWindowBackground"
+                card_view:cardElevation="@dimen/cardview_default_elevation"
+                android:foreground="?android:attr/selectableItemBackground" >
+
+
+                <LinearLayout
+                    android:id="@+id/linear_main"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp" >
+
+
+                    <ImageView
+                        android:id="@+id/imgLogo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:contentDescription="@null"
+                        android:src="@null" />
+
+
+                    <EditText
+                        android:id="@+id/editPhoneNumber"
+                        style="@style/CustomEditTextStyle"
+                        android:hint="@string/hint_enter_mobile_number"
+                        android:maxLength="10"
+                        android:layout_marginTop="10dp"
+                        android:digits="1234567890"
+                        android:singleLine="true"
+                        android:inputType="number"
+                        android:layout_below="@+id/imgLogo"
+                        android:drawableLeft="@drawable/ic_cellphone_iphone_grey600_24dp" />
+
+                    <EditText
+                        android:id="@+id/editPassword"
+                        style="@style/CustomEditTextStyle"
+                        android:hint="@string/hint_enter_password"
+                        android:singleLine="true"
+                        android:inputType="textPassword"
+                        android:visibility="gone"
+                        android:layout_below="@+id/imgLogo"
+                        android:drawableLeft="@drawable/ic_key_grey600_24dp" />
+
+
+                    <!--<Button
+                        android:id="@+id/btnLogin"
+                        android:onClick="onClick"
+                        style="@style/CustomButtonStyle"
+                        android:layout_below="@+id/editPhoneNumber"
+                        android:text="@string/button_login" />
+
+-->
+                    <ProgressBar
+                        android:id="@+id/pbLoading"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="15dp"
+                        style="?android:attr/progressBarStyleLarge"
+                        android:visibility="gone"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_below="@+id/login_button" />
+
+                    <TextView
+                        android:id="@+id/status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/myTextPrimaryColor"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:onClick="onClick"
+                style="@style/CustomButtonStyle"
+                android:layout_below="@+id/card_login"
+                android:text="@string/button_login" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

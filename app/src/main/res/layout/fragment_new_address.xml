@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/layout_main"
+    android:background="@color/home_background"
+    tools:context=".activities.NewAddressFragment">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:scrollbars="none" >
+
+        <FrameLayout
+            android:id="@+id/linearMain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:id="@+id/cardlist_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/myWindowBackground"
+                card_view:cardElevation="0dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardCornerRadius="0dp" >
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp" >
+
+                    <EditText
+                        android:id="@+id/editName"
+                        style="@style/CustomEditTextStyle"
+                        android:hint="@string/hint_enter_name"
+                        android:layout_marginTop="5dp"
+                        android:singleLine="true"
+                        android:inputType="text"
+                        android:maxLength="50" />
+
+                    <EditText
+                        android:id="@+id/editPhoneNumber"
+                        style="@style/CustomEditTextStyle"
+                        android:hint="@string/hint_enter_mobile_number"
+                        android:layout_marginTop="5dp"
+                        android:maxLength="10"
+                        android:digits="1234567890"
+                        android:inputType="phone"
+                        android:singleLine="true" />
+
+                    <EditText
+                        android:id="@+id/editAddress"
+                        style="@style/CustomEditTextStyle"
+                        android:hint="@string/hint_enter_address"
+                        android:layout_marginTop="10dp"
+                        android:maxLength="255"
+                        android:inputType="text"
+                        android:maxLines="2" />
+
+                    <EditText
+                        android:id="@+id/editLandmark"
+                        style="@style/CustomEditTextStyle"
+                        android:hint="@string/hint_enter_landmark"
+                        android:layout_marginTop="5dp"
+                        android:maxLength="50"
+                        android:inputType="text"
+                        android:singleLine="true" />
+
+                    <EditText
+                        android:id="@+id/editCity"
+                        style="@style/CustomEditTextStyle"
+                        android:hint="@string/hint_enter_city"
+                        android:layout_marginTop="5dp"
+                        android:maxLength="50"
+                        android:inputType="text"
+                        android:singleLine="true" />
+
+
+                    <EditText
+                        android:id="@+id/editState"
+                        style="@style/CustomEditTextStyle"
+                        android:hint="@string/hint_enter_state"
+                        android:layout_marginTop="5dp"
+                        android:maxLength="50"
+                        android:inputType="text"
+                        android:singleLine="true" />
+
+                    <EditText
+                        android:id="@+id/editPincode"
+                        style="@style/CustomEditTextStyle"
+                        android:hint="@string/hint_enter_pincode"
+                        android:layout_marginTop="5dp"
+                        android:singleLine="true"
+                        android:maxLength="6"
+                        android:digits="1234567890"
+                        android:inputType="number" />
+
+                    <ProgressBar
+                        android:id="@+id/pbLoading"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:visibility="gone"
+                        android:layout_gravity="center_horizontal|center_vertical" />
+
+                    <Button
+                        android:id="@+id/btnSaveAddress"
+                        android:onClick="onClick"
+                        android:layout_marginTop="10dp"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/button_save_shipping_details" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </FrameLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:layout_below="@+id/order_date" >
+
+    <ImageView
+        android:id="@+id/ib_order_packed"
+        android:background="@drawable/ib_order_progress"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/ic_gift_white_18dp"
+        android:contentDescription="@null" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="5dp"
+        android:background="@color/divider"
+        android:layout_gravity="center"
+        android:layout_weight=".5" />
+
+    <ImageView
+        android:id="@+id/iv_out_for_delivery"
+        android:background="@drawable/ib_order_progress"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/ic_walk_white_18dp"
+        android:contentDescription="@null" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="5dp"
+        android:background="@color/divider"
+        android:layout_gravity="center"
+        android:layout_weight=".5" />
+
+    <ImageView
+        android:id="@+id/iv_order_delivered"
+        android:background="@drawable/ib_order_progress"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/ic_home_white_18dp"
+        android:contentDescription="@null" />
+
+</LinearLayout>

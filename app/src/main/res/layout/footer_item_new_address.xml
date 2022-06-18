@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="0dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" >
+
+        <Button
+            android:id="@+id/btnAddNew"
+            android:onClick="onClick"
+            style="@style/CustomButtonStyle"
+            android:background="@color/myPrimaryColor"
+            android:layout_margin="10dp"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:text="@string/button_new_address" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

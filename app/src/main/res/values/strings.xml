@@ -1,0 +1,210 @@
+<resources>
+
+    <string name="app_name">txtBravo</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_rate_app">Rate This App</string>
+    <string name="action_share">Share With Friends</string>
+    <string name="action_my_order">My Orders</string>
+    <string name="action_my_bag">My Bag</string>
+    <string name="action_bidders">Bidders</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_search">Search</string>
+    <string name="action_chat">Chat Now</string>
+    <string name="action_clear">Clear Chat</string>
+    <string name="action_offers">Offers</string>
+    <string name="action_advertisement">Advertisement</string>
+    <string name="action_message">Message</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="title_activity_shopping_cart">ShoppingCartActivity</string>
+
+
+    <string name="action_select">Pick</string>
+    <string name="action_delete_all">Delete All</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="no_recoed_found">List is Empty</string>
+    <string name="button_place_order">Place Order</string>
+    <string name="button_cancel_order">Cancel Order</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_new_address">Add New Shipping Address</string>
+    <string name="title_activity_bidding">BiddingActivity</string>
+    <string name="title_confirmation_code">OTP not Verifying ? Click Here</string>
+
+
+    <string name="facebook_app_id">624928294315617</string>
+
+    <string name="hint_enter_mobile_number">Enter Mobile No *</string>
+    <string name="hint_enter_name">Enter Name *</string>
+    <string name="hint_enter_email">Enter Email</string>
+    <string name="hint_enter_house_no">Enter House Name and No *</string>
+    <string name="hint_enter_password">Enter Password *</string>
+    <string name="hint_enter_address">Enter Address *</string>
+    <string name="hint_enter_state">Enter State *</string>
+    <string name="hint_enter_city">Enter City *</string>
+    <string name="hint_enter_landmark">Enter Landmark</string>
+    <string name="hint_enter_country">Enter Country *</string>
+    <string name="hint_enter_pincode">Enter Pincode *</string>
+    <string name="hint_type_message">Type a message</string>
+    <string name="hint_capture_image">Capture</string>
+
+    <string name="button_register">Register</string>
+    <string name="button_login">login</string>
+    <string name="button_save_shipping_details">Save And Continue</string>
+    <string name="button_my_bag">(0) Items</string>
+    <string name="button_done">Done</string>
+
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: Device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: Device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: You got message!</string>
+    <string name="gcm_error">From GCM: Error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: Server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on server.</string>
+    <string name="server_registered">From Server: Successfully added device!</string>
+    <string name="server_unregistered">From Server: Successfully removed device!</string>
+    <string name="server_register_error">Could not register device on server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+
+
+    <string name="about_us_para_1">We are a start-up from Guwahati, Assam, trying to solve the common problem of supply and demand between the consumers and local stores by running a hyperlocal app based delivery service. Our mobile app connects the consumers to the nearest local stores, giving them the experience of a convenient and hassle free shopping.</string>
+    <string name="about_us_para_2">JAAPY is initiated by Educing Technologies Pvt. Ltd. and incubated by Downtown Venture Lab.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_search_store">Map</string>
+    <string name="title_activity_store_profile">StoreProfileActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+
+    <string name="introduction_para_1">Thank you for downloading/using txtBravo</string>
+    <string name="introduction_para_2">The following Terms &amp; Conditions is an electronic document in terms of the Information Technology Act, 2000 and rules made there under and the amended provisions pertaining to the electronic documents/records in various statutes as amended by the Information Technology Act, 2000.</string>
+    <string name="introduction_para_3">Please read the following Terms &amp; Conditions very carefully as it is intended to make you aware of your legal rights and liability with respect to your access to and use of the txtBravo website at <![CDATA[<a href="http://www.txtbravo.com">http://www.txtbravo.com</a>]]> (the "Site") and any related mobile/electronic device or software applications (hereinafter collectively referred as "txtBravo Platform"). These terms &amp; conditions are effective from the time you log in to txtBravo Platform.</string>
+    <string name="introduction_para_4">By accessing txtBravo Platform, you are agreeing to the following terms &amp; conditions and unconditionally agreeing to any potential guidelines and/or amendments. You may cease to use txtBravo Platform, if you do not accept the Terms &amp; Conditions. You may not access txtBravo Platform and immediately terminate your use of txtBravo Platform. Your use of txtBravo Platform is at your own risk, including the risk that you might be exposed to content that is inappropriate, or otherwise objectionable.</string>
+    <string name="definition_para_1">User - You or Your or User refers to you, as a user of the txtBravo Platform. A user is someone who uses the txtBravo Platform including the business, for the purpose of communicating, sharing, displaying, publishing, transacting, or uploading information including but not limited to pictures, videos, messages and reviews.</string>
+    <string name="definition_para_2">Content - Information that User upload, transmit, share or display through txtBravo Platform, (collectively referred as "Contents") including but not limited to any photos, profiles (including Your name and image), messages, information, text, video, music, and third party links.</string>
+    <string name="acceptance_para_1">The Terms &amp; Conditions (hereinafter referred as the "Agreement") is a legal binding contract between You, and Educing Technologies Pvt. Ltd ("Educing"), having its registered office at  House no  59 A, 2nd floor,B R Mazumdar path, Baghorbari,Panjabari , Guwahati-781037. All the services are provided through txtBravo Platform by Educing under the business unit named "txtBravo" ("We"/ "Us"/ "txtBravo"/ "Educing"). Therefore, all the legal privileges under the following terms &amp; conditions shall add up to the benefit of Educing.</string>
+    <string name="modification_para_1">txtBravo reserves the right at any time and/or from time to time to interrupt, restrict (without cause and without notice to You), modify or discontinue, temporarily or permanently, txtBravo Platform with or without any notice. You agree that txtBravo shall not be liable to You or to any third party for any modification, suspension or discontinuance of the Application or the Site.</string>
+    <string name="privacy_para_1">txtBravo has established a Privacy Policy that elucidate all users how their information is collected and used. By accepting the Agreement, you are also accepting and agreeing to be bound by the Privacy Policy. You can read and view Privacy Policy at <![CDATA[<a href="http://www.txtbravo.com/privacy">http://www.txtbravo.com/privacy</a>]]></string>
+    <string name="eligibility_para_1">txtBravo services are available for users who are competent to contract. You represent that you are 18 years of age and above and a person who can enter into a legally binding contract, and or are not barred by any law for the time being in force.</string>
+    <string name="services_para_1">txtBravo hereby grants you a limited, personal, revocable, non-transferable, non-exclusive license to use and access txtBravo Platform as set forth in the Agreement.You agree and understand that excluding services clearly indicated as being supplied by txtBravo, we do not endorse, market, operate, control, or promote any information, products or services on txtBravo Platform in any manner. You also agree and understand that txtBravo cannot and does not guarantee or warrant the content available through txtBravo Platform. txtBravo disclaims any liability for any information that may have become outdated at the time of provision of information or since the last time the particular piece of information was updated. txtBravo reserves the right to make changes and corrections to any part of the content of this website at any time without prior notice. txtBravo does not guarantee the prices or any other information including any deficiency of goods or services provided by Business on txtBravo Platform.You expressly agree that your mere use of txtBravo Platform does not result in a contractual relationship with the Business, and in the event that you procure and/or use the Business goods or services, the terms of such arrangement will be determined by your agreement with the Business, if any.We disclaim any liability and will not be responsible for a failure of specific providers of goods and services listed on txtBravo Platform to perform or otherwise comply with the information provided by txtBravo or the Business. txtBravo  will be under no contractual or other  with Business in relation to the provision of Services. We expressly disclaim any relationship of agency, employment or other arrangement with the Business, and do not act for or on behalf of Business.</string>
+    <string name="platform_para_1">To use txtBravo  Platform, You may be required to log in with your mobile phone number, which may be recorded by txtBravo  for registration process.You warrant that the mobile number used for registration belongs to you. You agree to use txtBravo  Platform only for purposes that are permitted by this agreement and any applicable law and/or regulation in the relevant jurisdictions.You agree that you will not reproduce, duplicate, copy, sell, trade or resell the Services for any purpose.You agree that any content posted or listed by you,shall not be fraudulent, misrepresented, mislead or pertain to the sale of any illegal, counterfeit, stolen goods and / or services;shall not pertain to good, services of which you are not the lawful owner or you do not have the authority or consent to list which do not belong to you or you do not have the authority for shall not infringe any intellectual property rights or privacy of any third party;shall not consist of material that is an expression of bigotry, racism or hatred based on age, gender, race, religion, caste, class, lifestyle preference, and nationality and / or is in the nature of being derogatory, slanderous to any third party;shall not be obscene, contain pornography, child abuse or any other indecent representation of women and child.shall not distribute or contain spam, viruses or any other technologies that may harm txtBravo  Platform or property;shall not, directly or indirectly, offer sale/sell/deliver any product or service in the category of product prohibited for sale in India under any law for time being force.User Violation of txtBravo  Platform - Your account may be disabled and Services may be terminated (including but not limited to), if,You provide or send any content which may be harmful to txtBravo  or which violates any restriction or policy established by txtBravo .You submit any content that falsely expresses or implies that such content is marketed or endorsed by txtBravo ; andCreating user accounts by automated means or under false or fraudulent identity.</string>
+    <string name="content_para_1">txtBravo  Platform contains content which includes your Personal Information, txtBravo  information and Information of Business. You agree and accept not to copy, modify, or distribute such content (except your Information).You agree to grant us a non-exclusive, worldwide, perpetual, irrevocable, royalty-free, sub-licensable right and license to use, reproduce, publish, translate, distribute, perform and display your Information listed on txtBravo  platform any such content (in whole or part) worldwide through txtBravo  Platform as well as on any of our affiliates or partners.We need these rights with respect to the content of your Information in order to host and display your content. If you believe that there is a violation, please notify us by writing at <![CDATA[<a href="mailto:customercare@txtbravo.com">customercare@txtbravo.com</a>]]> We reserve the right to remove any such content where we have grounds for suspecting the violation of the Agreement and any other txtBravo  policies.</string>
+    <string name="communication_para_1">By using the services provided through txtBravo  Platform, You hereby expressly solicit and agree to receive communications from Educing and/or its authorised personnel by way of telecom resources (including but not limited to voice calls, SMS and e-mails) on the registered number and email address provided by you to explain, explicate and clarify the services provided by txtBravo  Platform and to guide, aid or support you in availing the services offered by txtBravo  Platform.</string>
+    <string name="communication_para_2">You also agree to receive information regarding what txtBravo  observes to be of their interest based on your service usage history.You also agree to receive communication from the businesses listed on txtBravo  platform. It is expressly agreed by you that there is no objection to share your contact details with the Businesses whom you try to contact while using the txtBravo  platform.You can unsubscribe/ opt-out from receiving communications from txtBravo  through e-mail by writing to us <![CDATA[<a href="mailto:atdonotdisturb@txtbravo.com">atdonotdisturb@txtbravo.com</a>]]>.You do hereby also unconditionally agree and undertake that your registration on txtBravo  Platform shall supersede any preferences set by you with or registration done with the Do Not Disturb ("DND Register")/ National Customer Preference Register ("NCPR"). Without prejudice to the aforesaid, you also unconditionally agree that your rights under the Telecom Commercial Communications Customer Preference Regulations, 2010 or any subsequent amendments thereto or under NCPR, are kept in reserve or remain suppressed till you expressly communicate for discontinuation as per clause 10 (c) mentioned above. Recording: You understand and agree that we may, without further notice or warning and in our discretion, record all telephone conversations of you or anyone acting on your behalf has with txtBravo  or its listed businesses for quality control and training purposes or for its own protection. You acknowledge and understand that, while your communications with txtBravo  may be overheard, monitored, or recorded without further notice or warning, txtBravo  does not guarantee that recordings of any particular telephone calls will be retained or retrievable.</string>
+    <string name="disclaimer_para_1">YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, YOUR USE OF txtBravo  PLATFORM IS AT YOUR SOLE RISK AND DISCRETION.THE SERVICES OFFERED THROUGH IS ON AN "AS IS" AND "AS AVAILABLE" BASIS. TO THE FULLEST EXTENT PERMITTED BY LAW, txtBravo  EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, TITLE AND NON-INFRINGEMENT. txtBravo  MAKES NO WARRANTY THAT txtBravo  PLATFORM WILL MEET YOUR REQUIREMENTS; OR THAT txtBravo  PLATFORM WILL BE AVAILABLE ON AN UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE BASIS; OR THAT THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE SITE, OR ANY MATERIALS OFFERED THROUGH THE SITE, WILL BE ACCURATE OR RELIABLE; OR THAT THE QUALITY OF ANY PRODUCTS, SERVICES, INFORMATION OR OTHER MATERIAL PURCHASED OR OBTAINED BY YOU THROUGH txtBravo  PLATFORM OR IN RELIANCE ON THE MATERIALS WILL MEET YOUR EXPECTATIONS. txtBravo  SHALL HAVE NO RESPONSIBILITY FOR ANY DAMAGE TO YOUR MOBILE, COMPUTER SYSTEMS OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY CONTENT, MATERIALS, INFORMATION OR SOFTWARE. YOU SHALL BE LIABLE FOR ANY CONSEQUENCES WHATSOEVER RESULTING FROM ANYTHING TRANSMITTED OR CAUSED TO BE TRANSMITTED BY YOU, TO OR THROUGH THE txtBravo  PLATFORM.</string>
+    <string name="limitations_para_1">IN NO EVENT txtBravo  SHALL BE LIABLE (WHETHER UNDER THE LAW OF CONTRACTS, TORTS OR OTHERWISE) FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, EXEMPLARY, PUNITIVE OR ANY OTHER MONETARY OR OTHER DAMAGES, FEES, FINES, PENALTIES OR LIABILITIES (COLLECTIVELY REFERRED AS "DAMAGES") WHATSOEVER ARISING OUT OF OR RELATING TO USE OF txtBravo  PLATFORM. YOUR EXCLUSIVE REMEDY FOR DISSATISFACTION WITH txtBravo  PLATFORM IS TO STOP USING THE SERVICES OFFERED BY txtBravo  PLATFORM.YOU AGREE TO DEFEND, INDEMNIFY AND HOLD Educing, AND ITS OFFICERS, DIRECTORS, EMPLOYEES, REPRESENTATIVES AND AGENTS HARMLESS FROM AND AGAINST ANY CLAIMS, ACTIONS, DEMANDS, LIABILITIES, JUDGMENTS, AND SETTLEMENTS, INCLUDING WITHOUT LIMITATION, REASONABLE LEGAL FEES RESULTING FROM OR ALLEGED TO RESULT FROM YOUR USE OF THE SERVICES.</string>
+    <string name="intellectual_para_1">Educing is the sole owner of Brand txtBravo  and all the rights to the Platforms and its content. Platform content means its design, layout, text, images, graphics, sound, video etc. All related icons and logos are registered trademarks or trademarks or service marks of Educing and are protected under applicable copyright, trademark and other intellectual property laws. The unauthorized copying, modification, use or publication of these marks is strictly prohibited. Without Educings consent, you may not publish, distribute, extract or reproduce any contents provided through txtBravo  Platform.For use of any third party intellectual property, you need to get permission directly from the owner of the intellectual property for any use.We shall not be liable for any infringement of copyright or trademark arising out of materials posted on or transmitted through txtBravo  Platform by Users. We respect the intellectual property rights of others and in appropriate circumstances, at our discretion, may remove or disable access to material on txtBravo  Platform that infringes upon the copyright rights of others.If you believe that your IP rights has been or is being infringed upon by material found on txtBravo  Platform, you are required to send a written communication at <![CDATA[<a href="mailto:customercare@txtbravo.com">customercare@txtbravo.com</a>]]></string>
+    <string name="amendments_para_1">txtBravo , at its sole discretion, reserves the right to alter, change, modify, or otherwise amend the Agreement, and any other policies incorporated therein, at any time. txtBravo  may use indications (as decided from time to time) to post notice of amendments for your reference. It is your responsibility to review the Agreement for any changes and you are encouraged to check the Agreement frequently. Your use of txtBravo  Platform, following any modification will imply your consent to and acceptance of any revised Agreement.</string>
+    <string name="force_para_1">Educing shall not be liable to you for any event caused directly or indirectly by any act of God, wars, insurrections, acts of terrorism, acts of governments or boycotts, lockouts and other civil unrest, or any act of similar nature beyond Educing reasonable control.</string>
+    <string name="severability_para_1">If any provision of this Agreement is held to be unlawful, void, invalid or otherwise unenforceable, then that provision will be limited or eliminated from this Agreement to the minimum extent required, and the remaining provisions will remain valid and enforceable.</string>
+    <string name="assignment_para_1">This Agreement, and any rights granted hereunder, may not be transferred or assigned by you without our prior written consent which may be withheld in our sole discretion, but may be assigned by us without any restriction to our successors, including if there is any re-organization of Educing.</string>
+    <string name="survival_para_1">Upon termination of this Agreement, any provision which, by its nature or express terms should survive, will survive such termination or expiration as applied to transfers and relationship prior to such termination or expiration.</string>
+    <string name="jurisdiction_para_1">This Agreement shall be governed by the laws of India. You irrevocably consent to the exclusive jurisdiction of courts in Guwahati, India for all disputes arising out of or relating to this Agreement.</string>
+    <string name="contact_us_para_1">If You have any questions, queries or concerns about this Agreement or its implementation, You may contact us at <![CDATA[<a href="mailto:customercare@txtbravo.com">customercare@txtbravo.com</a>]]></string>
+    <string name="contact_us_para_2">We will do our best to address your feedback and concerns in a timely and effective manner.</string>
+    <string name="contact_us_para_3">You will be governed by any additional terms of use that may be specified by the Android store or Apple store or platform from which you downloaded this Licensed Application.</string>
+
+</resources>

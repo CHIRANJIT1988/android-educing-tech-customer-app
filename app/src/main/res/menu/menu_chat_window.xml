@@ -1,0 +1,37 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_clear"
+        android:title="@string/action_clear"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+
+    <!--
+    <item
+        android:id="@+id/action_photo"
+        android:title="@string/action_photo"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_camera_iris_white_24dp"
+        app:showAsAction="withText|ifRoom" />
+
+    <item
+        android:id="@+id/action_video"
+        android:title="@string/action_video"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_camcorder_box_white_24dp"
+        app:showAsAction="withText|ifRoom" />
+
+    <item
+        android:id="@+id/action_record"
+        android:title="@string/action_record"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_microphone_white_24dp"
+        app:showAsAction="withText|ifRoom" />
+    -->
+
+</menu>

@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myTextPrimaryColor" >
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/noborder"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:drawableTop="@drawable/ic_arrow_down_bold_circle_white_24dp"/>
+
+    <ImageView
+        android:id="@+id/imgFullScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null" />
+
+    <include
+        layout="@layout/layout_download_progress" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="14sp"/>
+
+</RelativeLayout>
